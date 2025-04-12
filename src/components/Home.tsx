@@ -133,26 +133,49 @@ function Home() {
         </section>
 
         {/* Categories */}
-        <section id="categories" className="max-w-7xl mx-auto px-4 mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8">Categorias em Destaque</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {['Cozinha', 'Sala de Estar', 'Banheiro', 'Quarto'].map((category, index) => (
-              <a
-                key={category}
-                href={`#${category.toLowerCase().replace(' ', '-')}`}
-                className="group relative h-64 overflow-hidden rounded-lg"
-              >
-                <img
-                  src={`https://images.unsplash.com/photo-${index + 1}?auto=format&fit=crop&q=80`}
-                  alt={category}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
-                <h3 className="absolute bottom-4 left-4 text-xl font-semibold text-white">{category}</h3>
-              </a>
-            ))}
-          </div>
-        </section>
+       <section id="categories" className="max-w-7xl mx-auto px-4 mb-16">
+  <h2 className="text-3xl font-bold text-gray-900 mb-8">Categorias em Destaque</h2>
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+    {[
+      {
+        name: 'Cozinha',
+        image:
+          'https://s2.glbimg.com/Q0FpCIqNrU3nzk9RrRVnqBw0zCU=/smart/e.glbimg.com/og/ed/f/original/2021/06/22/decoracao-de-cozinha-ideias-para-decorar-a-cozinha-cozinha-pequena-como-decorar-a-cozinha_4.jpg',
+      },
+      {
+        name: 'Sala de Estar',
+        image:
+          'https://jotabarbosa.com/wp-content/uploads/2023/02/jota-barbosa-blog-decorar-a-sala-de-estar-e-jantar-juntas-01.jpg',
+      },
+      {
+        name: 'Banheiro',
+        image:
+          'https://www.proma.com.br/blog/wp-content/uploads/2015/09/dicas-de-organizacao-e-decoracao-para-banheiros-pequenos.jpg',
+      },
+      {
+        name: 'Quarto',
+        image:
+          'https://i.pinimg.com/736x/0b/44/9b/0b449bfff59c170c18f024977dc9a93a.jpg',
+      },
+    ].map((category) => (
+      <a
+        key={category.name}
+        href={`#${category.name.toLowerCase().replace(/\s/g, '-')}`}
+        className="group relative h-64 overflow-hidden rounded-lg"
+      >
+        <img
+          src={category.image}
+          alt={category.name}
+          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
+        <h3 className="absolute bottom-4 left-4 text-xl font-semibold text-white">
+          {category.name}
+        </h3>
+      </a>
+    ))}
+  </div>
+</section>
 
         {/* Featured Products */}
         <section className="max-w-7xl mx-auto px-4 mb-16">
