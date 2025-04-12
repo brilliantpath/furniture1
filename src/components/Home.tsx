@@ -178,28 +178,171 @@ function Home() {
 </section>
 
         {/* Featured Products */}
-        <section className="max-w-7xl mx-auto px-4 mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8">Produtos em Destaque</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            {[1, 2, 3, 4, 5, 6, 7, 8].map((item) => (
-              <div key={item} className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                <img
-                  src={`https://images.unsplash.com/photo-${item}?auto=format&fit=crop&q=80`}
-                  alt={`Product ${item}`}
-                  className="w-full h-48 object-cover rounded-t-lg"
-                />
-                <div className="p-4">
-                  <h3 className="text-lg font-semibold mb-2">Produto {item}</h3>
-                  <p className="text-gray-600 mb-4">Descrição breve do produto {item}</p>
-                  <button className="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
-                    Ver Detalhes
-                  </button>
-                </div>
-              </div>
-            ))}
-          </div>
-        </section>
+        <section className="max-w-7xl mx-auto px-4 mb-16"> 
+  <h2 className="text-3xl font-bold text-gray-900 mb-8">Produtos em Destaque</h2>
+  <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+    {/* Image 1 */}
+    <div className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+      <a href="https://amzn.to/3RKmtBk" target="_blank" rel="noopener noreferrer">
+        <img
+          src="https://m.media-amazon.com/images/I/81NRhd43iAL._AC_SX679_.jpg"
+          alt="Produto 1"
+          className="w-full h-48 object-cover rounded-t-lg"
+        />
+      </a>
+      <div className="p-4">
+        <h3 className="text-lg font-semibold mb-2">Produto 1</h3>
+        <p className="text-gray-600 mb-4">Descrição breve do produto 1</p>
+        <a href="https://amzn.to/3RKmtBk" target="_blank" rel="noopener noreferrer">
+          <button className="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+            Ver Detalhes
+          </button>
+        </a>
+      </div>
+    </div>
 
+    {/* Image 2 */}
+    <div className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+      <a href="https://amzn.to/4jaSy1x" target="_blank" rel="noopener noreferrer">
+        <img
+          src="https://m.media-amazon.com/images/I/71bWaynAWnL.__AC_SY300_SX300_QL70_FMwebp_.jpg"
+          alt="Produto 2"
+          className="w-full h-48 object-cover rounded-t-lg"
+        />
+      </a>
+      <div className="p-4">
+        <h3 className="text-lg font-semibold mb-2">Produto 2</h3>
+        <p className="text-gray-600 mb-4">Descrição breve do produto 2</p>
+        <a href="https://amzn.to/4jaSy1x" target="_blank" rel="noopener noreferrer">
+          <button className="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+            Ver Detalhes
+          </button>
+        </a>
+      </div>
+    </div>
+
+    {/* Image 3 */}
+    <div className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+      <a href="https://amzn.to/4j4jeRj" target="_blank" rel="noopener noreferrer">
+        <img
+          src="https://m.media-amazon.com/images/I/61ZHVh0EYML._AC_SX679_.jpg"
+          alt="Produto 3"
+          className="w-full h-48 object-cover rounded-t-lg"
+        />
+      </a>
+      <div className="p-4">
+        <h3 className="text-lg font-semibold mb-2">Produto 3</h3>
+        <p className="text-gray-600 mb-4">Descrição breve do produto 3</p>
+        <a href="https://amzn.to/4j4jeRj" target="_blank" rel="noopener noreferrer">
+          <button className="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+            Ver Detalhes
+          </button>
+        </a>
+      </div>
+    </div>
+
+    {/* Image 4 */}
+    <div className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+      <a href="https://amzn.to/4csiovb" target="_blank" rel="noopener noreferrer">
+        <img
+          src="https://m.media-amazon.com/images/I/812RWKemjdL._AC_SX679_.jpg"
+          alt="Produto 4"
+          className="w-full h-48 object-cover rounded-t-lg"
+        />
+      </a>
+      <div className="p-4">
+        <h3 className="text-lg font-semibold mb-2">Produto 4</h3>
+        <p className="text-gray-600 mb-4">Descrição breve do produto 4</p>
+        <a href="https://amzn.to/4csiovb" target="_blank" rel="noopener noreferrer">
+          <button className="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+            Ver Detalhes
+          </button>
+        </a>
+      </div>
+    </div>
+
+    {/* Image 5 */}
+    <div className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+      <a href="https://amzn.to/3Rfnbqg" target="_blank" rel="noopener noreferrer">
+        <img
+          src="https://m.media-amazon.com/images/I/71f3gpk0ONL._AC_SX679_.jpg"
+          alt="Produto 5"
+          className="w-full h-48 object-cover rounded-t-lg"
+        />
+      </a>
+      <div className="p-4">
+        <h3 className="text-lg font-semibold mb-2">Produto 5</h3>
+        <p className="text-gray-600 mb-4">Descrição breve do produto 5</p>
+        <a href="https://amzn.to/3Rfnbqg" target="_blank" rel="noopener noreferrer">
+          <button className="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+            Ver Detalhes
+          </button>
+        </a>
+      </div>
+    </div>
+
+    {/* Image 6 */}
+    <div className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+      <a href="https://amzn.to/4lxQO44" target="_blank" rel="noopener noreferrer">
+        <img
+          src="https://m.media-amazon.com/images/I/71WC4n8pyzL._AC_SX679_.jpg"
+          alt="Produto 6"
+          className="w-full h-48 object-cover rounded-t-lg"
+        />
+      </a>
+      <div className="p-4">
+        <h3 className="text-lg font-semibold mb-2">Produto 6</h3>
+        <p className="text-gray-600 mb-4">Descrição breve do produto 6</p>
+        <a href="https://amzn.to/4lxQO44" target="_blank" rel="noopener noreferrer">
+          <button className="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+            Ver Detalhes
+          </button>
+        </a>
+      </div>
+    </div>
+
+    {/* Image 7 */}
+    <div className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+      <a href="https://amzn.to/4ijI5zv" target="_blank" rel="noopener noreferrer">
+        <img
+          src="https://m.media-amazon.com/images/I/81y0kHChEOL._AC_SX569_.jpg"
+          alt="Produto 7"
+          className="w-full h-48 object-cover rounded-t-lg"
+        />
+      </a>
+      <div className="p-4">
+        <h3 className="text-lg font-semibold mb-2">Produto 7</h3>
+        <p className="text-gray-600 mb-4">Descrição breve do produto 7</p>
+        <a href="https://amzn.to/4ijI5zv" target="_blank" rel="noopener noreferrer">
+          <button className="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+            Ver Detalhes
+          </button>
+        </a>
+      </div>
+    </div>
+
+    {/* Image 8 */}
+    <div className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+      <a href="https://amzn.to/42vuPSD" target="_blank" rel="noopener noreferrer">
+        <img
+          src="https://m.media-amazon.com/images/I/71RnMOlR70L.__AC_SY300_SX300_QL70_FMwebp_.jpg"
+          alt="Produto 8"
+          className="w-full h-48 object-cover rounded-t-lg"
+        />
+      </a>
+      <div className="p-4">
+        <h3 className="text-lg font-semibold mb-2">Produto 8</h3>
+        <p className="text-gray-600 mb-4">Descrição breve do produto 8</p>
+        <a href="https://amzn.to/42vuPSD" target="_blank" rel="noopener noreferrer">
+          <button className="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+            Ver Detalhes
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+        
         {/* Blog Preview */}
         <section id="blog" className="max-w-7xl mx-auto px-4 mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-8">Blog</h2>
