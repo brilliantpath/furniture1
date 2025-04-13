@@ -38,7 +38,7 @@ function Home() {
                   <Menu className="h-6 w-6 text-gray-600" />
                 )}
               </button>
-              <h1 className="text-2xl font-bold text-blue-600 ml-2 lg:ml-0">Brilliant Path</h1>
+              <h1 className="text-2xl font-bold text-grey-600 ml-2 lg:ml-0">Brilliant Path</h1>
             </div>
             
             <div className="hidden lg:flex items-center space-x-8">
@@ -100,7 +100,7 @@ function Home() {
               <SearchIcon className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" />
               <button
                 onClick={handleSearch}
-                className="absolute right-2 top-1/2 transform -translate-y-1/2 px-3 py-1 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
+                className="absolute right-2 top-1/2 transform -translate-y-1/2 px-3 py-1 bg-grey-600 text-white rounded-md hover:bg-blue-700 transition-colors"
               >
                 Buscar
               </button>
@@ -125,7 +125,7 @@ function Home() {
             <div className="max-w-2xl text-white">
               <h2 className="text-5xl font-bold mb-6">Transforme sua casa em um lar dos sonhos</h2>
               <p className="text-xl mb-8">Descubra as melhores soluções em decoração e móveis para criar ambientes únicos e acolhedores.</p>
-              <a href="#categories" className="inline-block px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+              <a href="#categories" className="inline-block px-8 py-3 bg-grey-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
                 Explorar Categorias
               </a>
             </div>
@@ -194,8 +194,8 @@ function Home() {
         <h3 className="text-lg font-semibold mb-2">Produto 1</h3>
         <p className="text-gray-600 mb-4">Descrição breve do produto 1</p>
         <a href="https://amzn.to/3RKmtBk" target="_blank" rel="noopener noreferrer">
-          <button className="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
-            Ver Detalhes
+          <button className="w-full px-4 py-2 bg-grey-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+            Ver Detalhes em Amazon
           </button>
         </a>
       </div>
@@ -214,8 +214,8 @@ function Home() {
         <h3 className="text-lg font-semibold mb-2">Produto 2</h3>
         <p className="text-gray-600 mb-4">Descrição breve do produto 2</p>
         <a href="https://amzn.to/4jaSy1x" target="_blank" rel="noopener noreferrer">
-          <button className="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
-            Ver Detalhes
+          <button className="w-full px-4 py-2 bg-grey-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+            Ver Detalhes em Amazon
           </button>
         </a>
       </div>
@@ -234,8 +234,8 @@ function Home() {
         <h3 className="text-lg font-semibold mb-2">Produto 3</h3>
         <p className="text-gray-600 mb-4">Descrição breve do produto 3</p>
         <a href="https://amzn.to/4j4jeRj" target="_blank" rel="noopener noreferrer">
-          <button className="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
-            Ver Detalhes
+          <button className="w-full px-4 py-2 bg-grey-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+            Ver Detalhes em Amazon
           </button>
         </a>
       </div>
@@ -254,8 +254,8 @@ function Home() {
         <h3 className="text-lg font-semibold mb-2">Produto 4</h3>
         <p className="text-gray-600 mb-4">Descrição breve do produto 4</p>
         <a href="https://amzn.to/4csiovb" target="_blank" rel="noopener noreferrer">
-          <button className="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
-            Ver Detalhes
+          <button className="w-full px-4 py-2 bg-grey-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+            Ver Detalhes em Amazon
           </button>
         </a>
       </div>
@@ -274,8 +274,8 @@ function Home() {
         <h3 className="text-lg font-semibold mb-2">Produto 5</h3>
         <p className="text-gray-600 mb-4">Descrição breve do produto 5</p>
         <a href="https://amzn.to/3Rfnbqg" target="_blank" rel="noopener noreferrer">
-          <button className="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
-            Ver Detalhes
+          <button className="w-full px-4 py-2 bg-grey-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+            Ver Detalhes em Amazon
           </button>
         </a>
       </div>
@@ -294,8 +294,8 @@ function Home() {
         <h3 className="text-lg font-semibold mb-2">Produto 6</h3>
         <p className="text-gray-600 mb-4">Descrição breve do produto 6</p>
         <a href="https://amzn.to/4lxQO44" target="_blank" rel="noopener noreferrer">
-          <button className="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
-            Ver Detalhes
+          <button className="w-full px-4 py-2 bg-grey-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+            Ver Detalhes em Amazon
           </button>
         </a>
       </div>
@@ -314,8 +314,8 @@ function Home() {
         <h3 className="text-lg font-semibold mb-2">Produto 7</h3>
         <p className="text-gray-600 mb-4">Descrição breve do produto 7</p>
         <a href="https://amzn.to/4ijI5zv" target="_blank" rel="noopener noreferrer">
-          <button className="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
-            Ver Detalhes
+          <button className="w-full px-4 py-2 bg-grey-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+            Ver Detalhes em Amazon
           </button>
         </a>
       </div>
@@ -334,8 +334,8 @@ function Home() {
         <h3 className="text-lg font-semibold mb-2">Produto 8</h3>
         <p className="text-gray-600 mb-4">Descrição breve do produto 8</p>
         <a href="https://amzn.to/42vuPSD" target="_blank" rel="noopener noreferrer">
-          <button className="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
-            Ver Detalhes
+          <button className="w-full px-4 py-2 bg-grey-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+            Ver Detalhes em Amazon
           </button>
         </a>
       </div>
@@ -370,34 +370,51 @@ function Home() {
 
         {/* Testimonials */}
         <section id="reviews" className="bg-gray-100 py-16 mb-16">
-          <div className="max-w-7xl mx-auto px-4">
-            <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Depoimentos</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {[1, 2, 3].map((review) => (
-                <div key={review} className="bg-white p-6 rounded-lg shadow-sm">
-                  <div className="flex items-center mb-4">
-                    <img
-                      src={`https://i.pravatar.cc/40?img=${review}`}
-                      alt={`Cliente ${review}`}
-                      className="w-10 h-10 rounded-full"
-                    />
-                    <div className="ml-3">
-                      <h4 className="font-semibold">Cliente {review}</h4>
-                      <div className="flex text-yellow-400">
-                        {[...Array(5)].map((_, i) => (
-                          <span key={i}>★</span>
-                        ))}
-                      </div>
-                    </div>
-                  </div>
-                  <p className="text-gray-600">
-                    "Excelente experiência de compra! Os produtos são de alta qualidade e o atendimento foi excepcional."
-                  </p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
+  <div className="max-w-7xl mx-auto px-4">
+    <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Minhas Opiniões e Dicas</h2>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-8">
+      {/* Opinião 1 */}
+      <div className="bg-white p-6 rounded-lg shadow-sm">
+        <h4 className="font-semibold text-xl mb-2">Tecnologia nos Móveis</h4>
+        <p className="text-gray-600">
+          Hoje em dia, muitos móveis estão sendo pensados com foco na tecnologia — mesas com carregadores embutidos,
+          sofás com alto-falantes Bluetooth e até camas com iluminação smart. Acho isso super prático e estiloso, perfeito
+          pra quem curte funcionalidade sem abrir mão do design.
+        </p>
+      </div>
+
+      {/* Opinião 2 */}
+      <div className="bg-white p-6 rounded-lg shadow-sm">
+        <h4 className="font-semibold text-xl mb-2">Preço vs Qualidade na Amazon</h4>
+        <p className="text-gray-600">
+          Confesso que fico surpreso(a) com o custo-benefício de muitos produtos de decoração na Amazon.
+          Nem sempre os mais caros são os melhores. Já encontrei móveis simples, bonitos e com ótima durabilidade por preços acessíveis.
+          Sempre bom olhar as avaliações e fotos reais dos compradores!
+        </p>
+      </div>
+
+      {/* Dica de Decoração */}
+      <div className="bg-white p-6 rounded-lg shadow-sm">
+        <h4 className="font-semibold text-xl mb-2">Dica de Decoração</h4>
+        <p className="text-gray-600">
+          Uma dica que eu sempre sigo: use iluminação estratégica para valorizar seu espaço. Luzes LED por trás da TV,
+          luminárias pendentes sobre a mesa de jantar e até fitas de LED nos nichos fazem toda a diferença!
+          Pequenos toques criam ambientes muito mais aconchegantes e modernos.
+        </p>
+      </div>
+
+      {/* O que evitar */}
+      <div className="bg-white p-6 rounded-lg shadow-sm">
+        <h4 className="font-semibold text-xl mb-2">O Que Evitar na Hora de Comprar</h4>
+        <p className="text-gray-600">
+          Evite comprar por impulso itens que parecem legais, mas não têm utilidade real no seu dia a dia.
+          Às vezes a gente vê algo bonito e barato e pensa “vou levar”, mas depois fica só ocupando espaço.
+          Priorize o que realmente vai te trazer praticidade ou valor estético de verdade!
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
         {/* Contact */}
         <section id="contact" className="max-w-7xl mx-auto px-4 mb-16">
@@ -408,7 +425,7 @@ function Home() {
                 <h3 className="text-xl font-semibold mb-4">Informações de Contato</h3>
                 <div className="space-y-4">
                   <p className="flex items-center text-gray-600">
-                    <span className="mr-2">📍</span> Rua da Criatividade, 123 - São Paulo, SP
+                    <span className="mr-2">📍</span> Rua 25 de Abril, 2745 - Queluz, Sintra
                   </p>
                   <p className="flex items-center text-gray-600">
                     <span className="mr-2">📞</span> +55 11 1234-5678
@@ -419,11 +436,11 @@ function Home() {
                 </div>
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-4">Horário de Funcionamento</h3>
+                <h3 className="text-xl font-semibold mb-4">Se precisar de algo, esse é o meu horario de atendimento</h3>
                 <div className="space-y-2 text-gray-600">
                   <p>Segunda a Sexta: 9h às 18h</p>
                   <p>Sábado: 9h às 13h</p>
-                  <p>Domingo: Fechado</p>
+                  <p>Domingo: indisponivel</p>
                 </div>
               </div>
             </div>
