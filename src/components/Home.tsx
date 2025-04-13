@@ -194,7 +194,7 @@ function Home() {
         <h3 className="text-lg font-semibold mb-2">Produto 1</h3>
         <p className="text-gray-600 mb-4">Descrição breve do produto 1</p>
         <a href="https://amzn.to/3RKmtBk" target="_blank" rel="noopener noreferrer">
-          <button className="w-full px-4 py-2 bg-grey-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+          <button className="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
             Ver Detalhes em Amazon
           </button>
         </a>
@@ -214,7 +214,7 @@ function Home() {
         <h3 className="text-lg font-semibold mb-2">Produto 2</h3>
         <p className="text-gray-600 mb-4">Descrição breve do produto 2</p>
         <a href="https://amzn.to/4jaSy1x" target="_blank" rel="noopener noreferrer">
-          <button className="w-full px-4 py-2 bg-grey-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+          <button className="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
             Ver Detalhes em Amazon
           </button>
         </a>
@@ -234,7 +234,7 @@ function Home() {
         <h3 className="text-lg font-semibold mb-2">Produto 3</h3>
         <p className="text-gray-600 mb-4">Descrição breve do produto 3</p>
         <a href="https://amzn.to/4j4jeRj" target="_blank" rel="noopener noreferrer">
-          <button className="w-full px-4 py-2 bg-grey-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+          <button className="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
             Ver Detalhes em Amazon
           </button>
         </a>
@@ -254,7 +254,7 @@ function Home() {
         <h3 className="text-lg font-semibold mb-2">Produto 4</h3>
         <p className="text-gray-600 mb-4">Descrição breve do produto 4</p>
         <a href="https://amzn.to/4csiovb" target="_blank" rel="noopener noreferrer">
-          <button className="w-full px-4 py-2 bg-grey-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+          <button className="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
             Ver Detalhes em Amazon
           </button>
         </a>
@@ -274,7 +274,7 @@ function Home() {
         <h3 className="text-lg font-semibold mb-2">Produto 5</h3>
         <p className="text-gray-600 mb-4">Descrição breve do produto 5</p>
         <a href="https://amzn.to/3Rfnbqg" target="_blank" rel="noopener noreferrer">
-          <button className="w-full px-4 py-2 bg-grey-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+          <button className="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
             Ver Detalhes em Amazon
           </button>
         </a>
@@ -294,7 +294,7 @@ function Home() {
         <h3 className="text-lg font-semibold mb-2">Produto 6</h3>
         <p className="text-gray-600 mb-4">Descrição breve do produto 6</p>
         <a href="https://amzn.to/4lxQO44" target="_blank" rel="noopener noreferrer">
-          <button className="w-full px-4 py-2 bg-grey-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+          <button className="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
             Ver Detalhes em Amazon
           </button>
         </a>
@@ -314,7 +314,7 @@ function Home() {
         <h3 className="text-lg font-semibold mb-2">Produto 7</h3>
         <p className="text-gray-600 mb-4">Descrição breve do produto 7</p>
         <a href="https://amzn.to/4ijI5zv" target="_blank" rel="noopener noreferrer">
-          <button className="w-full px-4 py-2 bg-grey-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+          <button className="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
             Ver Detalhes em Amazon
           </button>
         </a>
@@ -334,7 +334,7 @@ function Home() {
         <h3 className="text-lg font-semibold mb-2">Produto 8</h3>
         <p className="text-gray-600 mb-4">Descrição breve do produto 8</p>
         <a href="https://amzn.to/42vuPSD" target="_blank" rel="noopener noreferrer">
-          <button className="w-full px-4 py-2 bg-grey-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+          <button className="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
             Ver Detalhes em Amazon
           </button>
         </a>
