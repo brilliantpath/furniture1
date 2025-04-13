@@ -93,7 +93,7 @@ function Home() {
               <input
                 type="text"
                 id="search"
-                placeholder="O que você quer comprar?"
+                placeholder="Encontre o artigo que queres aqui"
                 className="w-full px-4 py-2 pl-10 pr-12 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                 onKeyPress={handleKeyPress}
               />
